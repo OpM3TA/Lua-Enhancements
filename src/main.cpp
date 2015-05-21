@@ -12,6 +12,10 @@
 // ?
 
 
+
+// TODO:
+// Add use of pointers (base_addr+offsets)
+// Reading a lua table into a Vector or directly into an array??
 void register_functions(lua_State *L)
 {
 	lua_pushcfunction(L, mem_write);
